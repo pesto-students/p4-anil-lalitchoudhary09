@@ -1,0 +1,110 @@
+body {
+  font-family: "Lato";
+}
+.footerSection__bottomLabel {
+  color: white;
+}
+
+.footerSection__bottomIcon {
+  padding-right: 5em;
+  height: 12px;
+  width: 12px;
+}
+
+.footerSection__bottomIcon1 {
+  padding-left: 65em;
+  padding-right: 5em;
+  height: 12px;
+  width: 12px;
+}
+.verticalNav {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 2%;
+  background-color: #b8b8b8;
+  float: left;
+}
+.block {
+  background-color: #505050;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.block__divimg {
+  display: inline-block;
+  padding: 20px 20px 20px;
+}
+
+.block__divtext {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.block_title {
+  font-size: large;
+  color: white;
+}
+
+.block__boldh {
+  color: white;
+  font-size: small;
+}
+.block__iconWithLabel {
+  padding-right: 20px;
+  height: 12px;
+  width: 12px;
+  color: white;
+}
+.CATTY {
+  border-style: solid;
+  border-color: black;
+  color: blue;
+}
+.verticalNav__img {
+  padding: 70px 10px 10px;
+}
+.footerSection {
+  background-color: #6082b6;
+  position: absolute;
+  bottom: 1px;
+  left: 9px;
+  right: 9px;
+}
+
+.footerSection__block {
+  background-color: #6082b6;
+  bottom: 1px;
+  left: 5px;
+}
+
+.footerSection__divimgblock {
+  float: left;
+}
+
+.footerSection__img {
+  padding: 10px 10px 5px;
+}
+
+.footerSection__labelblock {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.midRow {
+  margin-top: 20px;
+  margin-left: 40px;
+  background-color: #b8b8b8;
+  padding: 7px 7px 7px;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  text-align: left;
+  padding: 10px 130px;
+}
+tr:nth-child(even) {
+  background-color: #b8b8b8;
+  padding-left: 20px;
+}
