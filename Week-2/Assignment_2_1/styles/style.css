@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin-top: 5%;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  font-family: DauphinPlain;
+}
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+#section {
+  padding: 40px 40px 20px 20px;
+  float: left;
+  width: 50%;
+}
+
+#aside {
+  padding: 40px 40px 20px 20px;
+  float: left;
+  width: 50%;
+}
+
+img {
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: auto;
+}
+
+form {
+  margin-left: 20px;
+}
+@media screen and (max-width: 800px) {
+  #section,
+  #aside {
+    width: 100%;
+  }
+}
