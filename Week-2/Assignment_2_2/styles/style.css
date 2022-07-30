@@ -1,0 +1,78 @@
+.main__div {
+  top: 30%;
+  left: 30%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+.main__red {
+  float: left;
+  height: 50%;
+  width: 50%;
+  background-color: red;
+  transform-origin: top left;
+  transform: rotate(0deg);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+.main__yellow {
+  float: left;
+  height: 50%;
+  width: 50%;
+  background-color: yellow;
+  transform-origin: top right;
+  transform: rotate(0deg);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+.main__blue {
+  height: 50%;
+  width: 50%;
+  float: left;
+  background-color: blue;
+  transform-origin: bottom left;
+  transform: rotate(0deg);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+.main__green {
+  height: 50%;
+  width: 50%;
+  float: left;
+  background-color: green;
+  transform-origin: bottom right;
+  transform: rotate(0deg);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+.main__text {
+  position: absolute;
+  padding: 35% 45%;
+  z-index: -1;
+}
+
+.main__div:hover .main__red {
+  transform: rotate(90deg);
+  transition-duration: 1s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+.main__div:hover .main__blue {
+  transform: rotate(-90deg);
+  transition-duration: 1s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+.main__div:hover .main__yellow {
+  transform: rotate(-90deg);
+  transition-duration: 1s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+.main__div:hover .main__green {
+  transform: rotate(90deg);
+  transition-duration: 1s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
