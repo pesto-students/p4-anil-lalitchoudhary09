@@ -1,0 +1,47 @@
+header {
+  margin-top: 5%;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  font-family: DauphinPlain;
+}
+h3,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.main__section {
+  flex: 1;
+  padding: 1% 1% 2% 2%;
+}
+.main__aside {
+  flex: 1;
+  padding: 1% 1% 2% 2%;
+}
+
+img {
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: "50%";
+  width: "35%";
+}
+
+form {
+  margin-left: 2%;
+}
+
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+}
