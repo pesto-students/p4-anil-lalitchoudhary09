@@ -1,6 +1,6 @@
 function createStack()
 {
-   var items=[];    
+   const items=[];    
    return {
        push(item)
        {
