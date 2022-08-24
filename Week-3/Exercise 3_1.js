@@ -5,14 +5,19 @@ function memoize(fn)
     return function(...args)
     {
         const key = args.toString();
-        if(!log[key])
+        const key2= args.reverse().toString();
+        if(!log[key] || !log[key2] )
         {
             log[key] = fn(...args);
+            log[key2] = fn(...args);
         }
         return log[key]; 
     };
 
 }
+
+
+
 
 // function add, adds two numbers
 function add(a,b)
@@ -33,7 +38,7 @@ function timeCalculate(fn)
  
 // call add function to add number and note time required to add 
 timeCalculate(() => console.log(test1(5,2)));
-timeCalculate(() => console.log(test1(5,2)));
+timeCalculate(() => console.log(test1(2,5)));
 timeCalculate(() => console.log(test1(5,7)));
-timeCalculate(() => console.log(test1(5,7)));
-timeCalculate(() => console.log(test1(5,2)));
+timeCalculate(() => console.log(test1(7,5)));
+
