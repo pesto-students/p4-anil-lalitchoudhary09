@@ -1,5 +1,6 @@
 
 console.log("Problem 6.3:-  Sort array of 0's,1's and 2'");
+console.log("Time complexity O(n) and space complexity O(1)");
 const arr =[0,0,1,1,1,1,1,2,0,0,0,2];
 console.log(arr);
 let low=0;

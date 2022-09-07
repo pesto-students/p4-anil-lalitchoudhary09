@@ -2,6 +2,7 @@
 // Write, Edit and Run your Javascript code using JS Online Compiler
 
 console.log("Problem 6.1: Max Sum Contiguous Subarray");
+console.log("Time complexity O(n) and space complexity O(1)");
 const test = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
 let best, overallbest,r1;
 console.log(test);

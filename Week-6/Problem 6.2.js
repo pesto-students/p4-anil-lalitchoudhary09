@@ -2,6 +2,7 @@
 // Write, Edit and Run your Javascript code using JS Online Compiler
 
 console.log("Problem 6.1: Max Sum Contiguous Subarray");
+console.log("Time complexity O(n^2) and space complexity O(n)");
 const test = [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ];
 let row = 3;
 let col = 3;
@@ -12,11 +13,7 @@ left=0;
 bottom= row - 1;
 right = col - 1;
 const result = [];
-//result.push(2);
 let val = 1;
-console.log(size);
-console.log(result);
-
 while(val <= size)
 {
     for(let j=left; j<= right;j++)
@@ -48,9 +45,3 @@ while(val <= size)
     
 }
 console.log(result);
-
-
-
-
-
-

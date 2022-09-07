@@ -1,5 +1,6 @@
 
 console.log("Problem 6.4 : Best time to buy and sell stock");
+console.log("Time complexity O(n) and space complexity O(1)");
 const prices = [7,6,4,3,1];
 console.log(prices);
 let leastPrice = Number.MAX_SAFE_INTEGER;

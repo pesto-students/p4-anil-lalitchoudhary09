@@ -1,5 +1,6 @@
 
 console.log("Problem 6.6:  3 sum");
+console.log("Time complexity O(n*log(n) and space complexity O(1)");
 let A = [-1,2,1,-4];
 let target = 1,start,end,sum,closeSum = 1000000000;
 A = A.sort((a,b)=>a-b);
