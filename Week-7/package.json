@@ -1,0 +1,12 @@
+{
+  "name": "week7",
+  "version": "1.0.0",
+  "description": "week7 assignment",
+  "main": "Problem 7.1 AS Reverse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
