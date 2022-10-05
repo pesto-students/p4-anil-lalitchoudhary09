@@ -26,9 +26,11 @@ const TodoList = ({ todos, setToDos, text, EachItem }) => {
   };
 
   return (
-    <li className="list">
+    <tr className="tablerow">
       <span
-        className={`list__todoText  ${EachItem.completed ? "completed" : " "}`}
+        className={`tablerow__todoText  ${
+          EachItem.completed ? "completed" : " "
+        }`}
       >
         {text}
       </span>
@@ -38,7 +40,7 @@ const TodoList = ({ todos, setToDos, text, EachItem }) => {
       <button className="btn btnTrash" onClick={TrashHandler}>
         Trash
       </button>
-    </li>
+    </tr>
   );
 };
 

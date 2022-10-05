@@ -3,8 +3,8 @@ import TodoList from "./TodoList.js";
 
 const Todo = ({ todos, setToDos }) => {
   return (
-    <div>
-      <ul>
+    <section>
+      <table className="table">
         {todos.map((item) => (
           <TodoList
             todos={todos}
@@ -13,8 +13,8 @@ const Todo = ({ todos, setToDos }) => {
             EachItem={item}
           />
         ))}
-      </ul>
-    </div>
+      </table>
+    </section>
   );
 };
 
