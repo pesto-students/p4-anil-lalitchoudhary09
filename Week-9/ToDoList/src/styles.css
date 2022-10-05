@@ -1,18 +1,27 @@
-.App,
-.container {
+.App {
   font-family: sans-serif;
   display: flex;
   text-align: center;
   align-items: center;
-}
-
-.App {
+  flex-direction: column;
   min-height: 100vh;
   justify-content: center;
 }
 
+.header {
+  border: 2px solid #fff;
+  width: 494px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
 .container {
-  height: 80vh;
+  height: 70vh;
+  width: 494px;
   border: 2px solid #fff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -55,7 +64,7 @@ form button:hover {
   background-color: orchid;
 }
 
-.list {
+.tablerow {
   border-radius: 50px;
   margin: 10px 0;
   background-color: rgb(127, 154, 96);
@@ -66,11 +75,11 @@ form button:hover {
   text-align: left;
 }
 
-.list__todoText {
+.tablerow__todoText {
   flex: 1;
 }
 
-ul {
+.table {
   list-style: none;
   padding: 0;
   margin: 0;
