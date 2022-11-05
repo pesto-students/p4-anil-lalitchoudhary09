@@ -1,0 +1,120 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.header {
+  border: 2px solid #fff;
+  width: 494px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.container {
+  height: 70vh;
+  width: 494px;
+  border: 2px solid #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  flex-direction: column;
+  font-size: 20px;
+  color: black;
+}
+
+body {
+  background-color: rgb(141, 156, 90);
+}
+
+.todoForm {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+}
+
+input {
+  width: 80%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+}
+
+form button {
+  border-radius: 25px;
+  height: 100%;
+  width: 20%;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+form button:hover {
+  background-color: orchid;
+}
+
+.tablerow {
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color: rgb(127, 154, 96);
+  padding: 10px 20px;
+  display: flex;
+  width: 450px;
+  align-items: center;
+  text-align: left;
+}
+
+.tablerow__todoText {
+  flex: 1;
+}
+
+.table {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.btnComplete {
+  border-color: orange;
+  color: green;
+}
+
+.btnTrash {
+  border-color: #2196f3;
+  color: #2196f3;
+}
+
+.btn {
+  border-radius: 25px;
+  margin: 0 5px;
+  background-color: white;
+  padding: 8px 8px 8px 8px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.btnComplete:hover {
+  background-color: orange;
+  color: white;
+}
+
+.btnTrash:hover {
+  background-color: #2196f3;
+  color: white;
+}
